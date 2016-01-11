@@ -17,7 +17,7 @@ Git Hub Initialization:
 
 >>> $ git commit					#Pushes a file to then be committed. It also recursive, see the following line:
 
-	>>> $ git commit - m			#Commits with a tag, name, etc.
+	>>> $ git commit - m  "#"		#Commits the update with a tag, name, etc. Replace # with your update name. 
 
 >>> $ git push -u origin			#Pushes, rather uploads, the staging area files and 
 									#directories to the online repository selected branch (e.g. "Master Branch")
