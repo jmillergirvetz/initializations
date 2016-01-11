@@ -1,0 +1,27 @@
+Git Hub Initialization:
+
+>>> $ mkdir GitHub  				#Create a new directory. A place to store your code locally. I called mine "GitHub"
+
+>>> $ mkdir cd GitHub				#Change into the newly created directory. Remember this is how we initialize code in general. 
+
+>>> $ git init						#Creates .git file that is used to compile code into .git format, 
+									#so that it's ready for upload to a Git Repository.
+
+>>> $ ls -a 						#Checks to see which hidden files have been created in the new directory. 
+
+>>> $ git remote add origin "URL"	#Syncs local machine to the repository address, URL. 
+									#This also adds the file "origin" which creates another link
+
+>>> $ git add *						#Push a file, folder, or "*" everything in the selected 
+									#directory to the staging area (still on your local).
+
+>>> $ git commit					#Pushes a file to then be committed. It also recursive, see the following line:
+
+	>>> $ git commit - m			#Commits with a tag, name, etc.
+
+>>> $ git push -u origin			#Pushes, rather uploads, the staging area files and 
+									#directories to the online repository selected branch (e.g. "Master Branch")
+
+>>> $ git pull						#pulls online content to your corresponding .git directory on your local
+
+# Now you are ready to start using git with your code. 
