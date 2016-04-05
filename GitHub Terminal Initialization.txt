@@ -24,4 +24,4 @@ Git Hub Initialization:
 
 >>> $ git pull					#pulls online content to your corresponding .git directory on your local
 
-			# Now you are ready to start using git with your code.
+					# Now you are ready to start using git with your code.
