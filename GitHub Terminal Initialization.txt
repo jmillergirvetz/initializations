@@ -2,7 +2,7 @@ Git Hub Initialization:
 
 >>> $ mkdir GitHub  				#Create a new directory. A place to store your code locally. I called mine "GitHub"
 
->>> $ cd GitHub				#Change into the newly created directory. Remember this is how we are able to initialize code in general.
+>>> $ cd GitHub			#Change into the newly created directory. Remember this is how we are able to initialize code in general.
 
 >>> $ git init						#Creates .git file that is used to compile code into .git format,
 					#so that it's ready for upload to a Git Repository.
