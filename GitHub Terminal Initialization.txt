@@ -4,24 +4,24 @@ Git Hub Initialization:
 
 >>> $ cd GitHub			#Change into the newly created directory. Remember this is how we are able to initialize code in general.
 
->>> $ git init						#Creates .git file that is used to compile code into .git format,
-					#so that it's ready for upload to a Git Repository.
+>>> $ git init			#Creates .git file that is used to compile code into .git format,
+							#so that it's ready for upload to a Git Repository.
 
->>> $ ls -a 						#Checks to see which hidden files have been created in the new directory.
+>>> $ ls -a 			#Checks to see which hidden files have been created in the new directory.
 
 >>> $ git remote add origin <URL>	#Syncs local machine to the repository address, URL.
-				#This also adds the file "origin" which creates another link
+						#This also adds the file "origin" which creates another link
 
 >>> $ git add *			#Push a file, folder, or "*" everything in the selected
-							#directory to the staging area (still on your local).
+						#directory to the staging area (still on your local).
 
 >>> $ git commit		#Pushes a file to then be committed. It also recursive, see the following line:
 
-	>>> $ git commit - m  <###>		#Commits the update with a tag, name, etc. Replace # with your update name.
+>>> $ git commit - m  <###>		#Commits the update with a tag, name, etc. Replace # with your update name.
 
 >>> $ git push -u origin			#Pushes, rather uploads, the staging area files and
 							#directories to the online repository selected branch (e.g. "Master Branch")
 
 >>> $ git pull					#pulls online content to your corresponding .git directory on your local
 
-# Now you are ready to start using git with your code.
+			# Now you are ready to start using git with your code.
